@@ -103,7 +103,7 @@ _G.packer_plugins = {
     url = "https://github.com/akinsho/bufferline.nvim"
   },
   ["clangd_extensions.nvim"] = {
-    config = { "\27LJ\2\n�\3\0\2\t\1\15\0,6\2\0\0009\2\1\0029\2\2\2\18\4\1\0'\5\3\0'\6\4\0B\2\4\0016\2\0\0009\2\1\0029\2\5\2\18\4\1\0'\5\6\0'\6\a\0'\a\b\0-\b\0\0B\2\6\0016\2\0\0009\2\1\0029\2\5\2\18\4\1\0'\5\6\0'\6\t\0'\a\n\0-\b\0\0B\2\6\0016\2\0\0009\2\1\0029\2\5\2\18\4\1\0'\5\6\0'\6\v\0'\a\f\0-\b\0\0B\2\6\0016\2\0\0009\2\1\0029\2\5\2\18\4\1\0'\5\6\0'\6\r\0'\a\14\0-\b\0\0B\2\6\1K\0\1\0\0�*<cmd>lua vim.lsp.buf.references()<CR>\agr%<cmd>lua vim.lsp.buf.hover()<CR>\15<leader>lK*<cmd>lua vim.lsp.buf.definition()<CR>\agd+<cmd>lua vim.lsp.buf.declaration()<CR>\agD\6n\24nvim_buf_set_keymap\27v:lua.vim.lsp.omnifunc\romnifunc\24nvim_buf_set_option\bapi\bvim�\a\1\0\b\0\27\0\0315\0\0\0003\1\1\0006\2\2\0'\4\3\0B\2\2\0029\2\4\0025\4\t\0005\5\5\0=\1\6\0055\6\a\0=\6\b\5=\5\n\0045\5\v\0005\6\f\0=\6\r\0055\6\15\0005\a\14\0=\a\16\0065\a\17\0=\a\18\0065\a\19\0=\a\20\6=\6\21\0055\6\22\0=\6\23\0055\6\24\0=\6\25\5=\5\26\4B\2\2\0012\0\0�K\0\1\0\15extensions\16symbol_info\1\0\1\vborder\tnone\17memory_usage\1\0\1\vborder\tnone\bast\15highlights\1\0\1\vdetail\fComment\15kind_icons\1\0\a\25TemplateTemplateParm\b\rCompound\b\21TemplateTypeParm\b\18PackExpansion\b\24TemplateParamObject\b\20TranslationUnit\b\rRecovery\b\15role_icons\1\0\0\1\0\6\ttype\b\15expression\b\22template argument\b\16declaration\b\14statement\b\14specifier\b\16inlay_hints\1\0\v\23other_hints_prefix\b=> \27parameter_hints_prefix\b<- \25show_parameter_hints\2\30only_current_line_autocmd\15CursorHold\22only_current_line\2\16right_align\1\rpriority\3d\14highlight\fComment\24right_align_padding\3\a\26max_len_align_padding\3\1\18max_len_align\1\1\0\1\17autoSetHints\2\vserver\1\0\0\bcmd\1\v\0\0\vclangd\t-j=8\29--header-insertion=never\25--pch-storage=memory --completion-style=detailed\31--ranking-model=heuristics\16--log=error\23--background-index\"--function-arg-placeholders=0\17--clang-tidy\14on_attach\1\0\0\nsetup\22clangd_extensions\frequire\0\1\0\2\vsilent\2\fnoremap\2\0" },
+    config = { "\27LJ\2\n�\3\0\2\t\1\15\0,6\2\0\0009\2\1\0029\2\2\2\18\4\1\0'\5\3\0'\6\4\0B\2\4\0016\2\0\0009\2\1\0029\2\5\2\18\4\1\0'\5\6\0'\6\a\0'\a\b\0-\b\0\0B\2\6\0016\2\0\0009\2\1\0029\2\5\2\18\4\1\0'\5\6\0'\6\t\0'\a\n\0-\b\0\0B\2\6\0016\2\0\0009\2\1\0029\2\5\2\18\4\1\0'\5\6\0'\6\v\0'\a\f\0-\b\0\0B\2\6\0016\2\0\0009\2\1\0029\2\5\2\18\4\1\0'\5\6\0'\6\r\0'\a\14\0-\b\0\0B\2\6\1K\0\1\0\1�*<cmd>lua vim.lsp.buf.references()<CR>\agr%<cmd>lua vim.lsp.buf.hover()<CR>\15<leader>lK*<cmd>lua vim.lsp.buf.definition()<CR>\agd+<cmd>lua vim.lsp.buf.declaration()<CR>\agD\6n\24nvim_buf_set_keymap\27v:lua.vim.lsp.omnifunc\romnifunc\24nvim_buf_set_option\bapi\bvim�\b\1\0\t\0\"\0-6\0\0\0'\2\1\0B\0\2\2\v\0\0\0X\1\v�6\1\2\0009\1\3\0019\1\4\1'\3\5\0006\4\2\0009\4\6\0049\4\a\0049\4\b\0044\5\0\0B\1\4\0012\0\28�5\1\t\0003\2\n\0009\3\v\0005\5\16\0005\6\f\0=\2\r\0065\a\14\0=\a\15\6=\6\17\0055\6\18\0005\a\19\0=\a\20\0065\a\22\0005\b\21\0=\b\23\a5\b\24\0=\b\25\a5\b\26\0=\b\27\a=\a\28\0065\a\29\0=\a\30\0065\a\31\0=\a \6=\6!\5B\3\2\0012\0\0�K\0\1\0K\0\1\0\15extensions\16symbol_info\1\0\1\vborder\tnone\17memory_usage\1\0\1\vborder\tnone\bast\15highlights\1\0\1\vdetail\fComment\15kind_icons\1\0\a\rCompound\b\20TranslationUnit\b\18PackExpansion\b\21TemplateTypeParm\b\25TemplateTemplateParm\b\rRecovery\b\24TemplateParamObject\b\15role_icons\1\0\0\1\0\6\15expression\b\ttype\b\16declaration\b\14specifier\b\14statement\b\22template argument\b\16inlay_hints\1\0\v\14highlight\fComment\rpriority\3d\16right_align\1\27parameter_hints_prefix\b<- \23other_hints_prefix\b=> \18max_len_align\1\26max_len_align_padding\3\1\24right_align_padding\3\a\22only_current_line\2\30only_current_line_autocmd\15CursorHold\25show_parameter_hints\2\1\0\1\17autoSetHints\2\vserver\1\0\0\bcmd\1\v\0\0\vclangd\t-j=8\29--header-insertion=never\25--pch-storage=memory --completion-style=detailed\31--ranking-model=heuristics\16--log=error\23--background-index\"--function-arg-placeholders=0\17--clang-tidy\14on_attach\1\0\0\nsetup\0\1\0\2\vsilent\2\fnoremap\2\tWARN\vlevels\blog&clangd_extensions.nvim not found.\16nvim_notify\bapi\bvim\22clangd_extensions\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
@@ -143,6 +143,11 @@ _G.packer_plugins = {
     path = "/Users/yangjerry/.local/share/lunarvim/site/pack/packer/opt/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/Users/yangjerry/.local/share/lunarvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
   ["indent-blankline.nvim"] = {
     config = { "\27LJ\2\nC\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\26lvim.core.indentlines\frequire\0" },
     loaded = true,
@@ -168,6 +173,14 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yangjerry/.local/share/lunarvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["markdown-preview.nvim"] = {
+    config = { "\27LJ\2\n1\0\0\2\0\3\0\0056\0\0\0009\0\1\0)\1\1\0=\1\2\0K\0\1\0\20mkdp_auto_start\6g\bvim\0" },
+    loaded = false,
+    needs_bufread = false,
+    only_cond = false,
+    path = "/Users/yangjerry/.local/share/lunarvim/site/pack/packer/opt/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -288,7 +301,7 @@ _G.packer_plugins = {
     url = "https://github.com/Tastyep/structlog.nvim"
   },
   ["symbols-outline.nvim"] = {
-    config = { "\27LJ\2\n�\f\0\0\6\0A\0I5\0\0\0005\1\2\0005\2\1\0=\2\3\1=\1\4\0004\1\0\0=\1\5\0004\1\0\0=\1\6\0005\1\b\0005\2\a\0=\2\t\0015\2\n\0=\2\v\0015\2\f\0=\2\r\0015\2\14\0=\2\15\0015\2\16\0=\2\17\0015\2\18\0=\2\19\0015\2\20\0=\2\21\0015\2\22\0=\2\23\0015\2\24\0=\2\25\0015\2\26\0=\2\27\0015\2\28\0=\2\29\0015\2\30\0=\2\31\0015\2 \0=\2!\0015\2\"\0=\2#\0015\2$\0=\2%\0015\2&\0=\2'\0015\2(\0=\2)\0015\2*\0=\2+\0015\2,\0=\2-\0015\2.\0=\2/\0015\0020\0=\0021\0015\0022\0=\0023\0015\0024\0=\0025\0015\0026\0=\0027\0015\0028\0=\0029\0015\2:\0=\2;\1=\1<\0006\1=\0006\3>\0'\4?\0B\1\3\3\15\0\1\0X\3\3�9\3@\2\18\5\0\0B\3\2\1K\0\1\0\nsetup\20symbols-outline\frequire\npcall\fsymbols\18TypeParameter\1\0\2\ticon\t𝙏\ahl\16TSParameter\rOperator\1\0\2\ticon\6+\ahl\15TSOperator\nEvent\1\0\2\ticon\t🗲\ahl\vTSType\vStruct\1\0\2\ticon\t𝓢\ahl\vTSType\15EnumMember\1\0\2\ticon\b\ahl\fTSField\tNull\1\0\2\ticon\tNULL\ahl\vTSType\bKey\1\0\2\ticon\t🔐\ahl\vTSType\vObject\1\0\2\ticon\b⦿\ahl\vTSType\nArray\1\0\2\ticon\b\ahl\15TSConstant\fBoolean\1\0\2\ticon\b⊨\ahl\14TSBoolean\vNumber\1\0\2\ticon\6#\ahl\rTSNumber\vString\1\0\2\ticon\t𝓐\ahl\rTSString\rConstant\1\0\2\ticon\b\ahl\15TSConstant\rVariable\1\0\2\ticon\b\ahl\15TSConstant\rFunction\1\0\2\ticon\aƒ\ahl\15TSFunction\14Interface\1\0\2\ticon\bﰮ\ahl\vTSType\tEnum\1\0\2\ticon\bℰ\ahl\vTSType\16Constructor\1\0\2\ticon\b\ahl\18TSConstructor\nField\1\0\2\ticon\b\ahl\fTSField\rProperty\1\0\2\ticon\b\ahl\rTSMethod\vMethod\1\0\2\ticon\aƒ\ahl\rTSMethod\nClass\1\0\2\ticon\t𝓒\ahl\vTSType\fPackage\1\0\2\ticon\b\ahl\16TSNamespace\14Namespace\1\0\2\ticon\b\ahl\16TSNamespace\vModule\1\0\2\ticon\b\ahl\16TSNamespace\tFile\1\0\0\1\0\2\ticon\b\ahl\nTSURI\21symbol_blacklist\18lsp_blacklist\fkeymaps\nclose\1\0\6\18goto_location\t<Cr>\19focus_location\6o\17hover_symbol\14<C-space>\19toggle_preview\6K\18rename_symbol\6r\17code_actions\6a\1\3\0\0\n<Esc>\6q\1\0\v\15auto_close\2\17auto_preview\2\19relative_width\2\rposition\nright\26show_relative_numbers\1\24show_symbol_details\2\25preview_bg_highlight\nPmenu\17show_numbers\1\16show_guides\2\27highlight_hovered_item\2\nwidth\3\20\0" },
+    config = { "\27LJ\2\n�\2\0\0\b\1\15\0\0306\0\0\0006\2\1\0'\3\2\0B\0\3\3\15\0\0\0X\2\4�9\2\3\1-\4\0\0B\2\2\1X\2\v�6\2\4\0009\2\5\0029\2\6\2'\4\a\0006\5\4\0009\5\b\0059\5\t\0059\5\n\0054\6\0\0B\2\4\1K\0\1\0006\2\4\0009\2\5\0029\2\v\2'\4\f\0'\5\r\0'\6\14\0004\a\0\0B\2\5\1K\0\1\0\0�\24:SymbolsOutline<cr>\15<leader>lo\6n\20nvim_set_keymap\tWARN\vlevels\blog\31symbols-outline not found.\16nvim_notify\bapi\bvim\nsetup\20symbols-outline\frequire\npcall\0" },
     loaded = true,
     path = "/Users/yangjerry/.local/share/lunarvim/site/pack/packer/start/symbols-outline.nvim",
     url = "https://github.com/simrat39/symbols-outline.nvim"
@@ -304,6 +317,12 @@ _G.packer_plugins = {
     path = "/Users/yangjerry/.local/share/lunarvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["todo-comments.nvim"] = {
+    config = { "\27LJ\2\n�\t\0\0\a\0007\0F6\0\0\0'\2\1\0B\0\2\2\v\0\0\0X\1\v�6\1\2\0009\1\3\0019\1\4\1'\3\5\0006\4\2\0009\4\6\0049\4\a\0049\4\b\0044\5\0\0B\1\4\1K\0\1\0009\1\t\0005\3\n\0005\4\14\0005\5\v\0005\6\f\0=\6\r\5=\5\15\0045\5\16\0=\5\17\0045\5\18\0=\5\19\0045\5\20\0005\6\21\0=\6\r\5=\5\b\0045\5\22\0005\6\23\0=\6\r\5=\5\24\0045\5\25\0005\6\26\0=\6\r\5=\5\27\0045\5\28\0005\6\29\0=\6\r\5=\5\30\4=\4\31\0035\4 \0=\4!\0035\4\"\0004\5\0\0=\5#\4=\4$\0035\4&\0005\5%\0=\5'\0045\5(\0=\5)\0045\5*\0=\5+\0045\5,\0=\5-\0045\5.\0=\5/\0045\0050\0=\0051\4=\0042\0035\0043\0005\0054\0=\0055\4=\0046\3B\1\2\1K\0\1\0\vsearch\targs\1\6\0\0\18--color=never\17--no-heading\20--with-filename\18--line-number\r--column\1\0\2\fpattern\18\\b(KEYWORDS):\fcommand\arg\vcolors\ttest\1\3\0\0\15Identifier\f#FF00FF\fdefault\1\3\0\0\15Identifier\f#7C3AED\thint\1\3\0\0\19DiagnosticHint\f#10B981\tinfo\1\3\0\0\19DiagnosticInfo\f#2563EB\fwarning\1\4\0\0\22DiagnosticWarning\15WarningMsg\f#FBBF24\nerror\1\0\0\1\4\0\0\20DiagnosticError\rErrorMsg\f#DC2626\14highlight\fexclude\1\0\6\vbefore\5\fkeyword\twide\17max_line_len\3�\3\nafter\afg\fpattern\22.*<(KEYWORDS)\\s*:\18comments_only\2\14gui_style\1\0\2\abg\tBOLD\afg\tNONE\rkeywords\tTEST\1\4\0\0\fTESTING\vPASSED\vFAILED\1\0\2\ncolor\ttest\ticon\t⏲ \tNOTE\1\2\0\0\tINFO\1\0\2\ncolor\thint\ticon\t \tPERF\1\4\0\0\nOPTIM\16PERFORMANCE\rOPTIMIZE\1\0\1\ticon\t \1\3\0\0\fWARNING\bXXX\1\0\2\ncolor\fwarning\ticon\t \tHACK\1\0\2\ncolor\fwarning\ticon\t \tTODO\1\0\2\ncolor\tinfo\ticon\t \bFIX\1\0\0\balt\1\5\0\0\nFIXME\bBUG\nFIXIT\nISSUE\1\0\2\ncolor\nerror\ticon\t \1\0\3\nsigns\2\19merge_keywords\2\18sign_priority\3\b\nsetup\tWARN\vlevels\blog\29todo-comments not found.\16nvim_notify\bapi\bvim\18todo-comments\frequire\0" },
+    loaded = true,
+    path = "/Users/yangjerry/.local/share/lunarvim/site/pack/packer/start/todo-comments.nvim",
+    url = "https://github.com/folke/todo-comments.nvim"
+  },
   ["toggleterm.nvim"] = {
     config = { "\27LJ\2\n@\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\23lvim.core.terminal\frequire\0" },
     loaded = false,
@@ -318,7 +337,7 @@ _G.packer_plugins = {
     url = "https://github.com/folke/tokyonight.nvim"
   },
   ["trouble.nvim"] = {
-    config = { "\27LJ\2\n�\5\0\0\5\0\26\0\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0005\4\5\0=\4\6\0035\4\a\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\0035\4\19\0=\4\20\3=\3\21\0025\3\22\0=\3\23\0025\3\24\0=\3\25\2B\0\2\1K\0\1\0\nsigns\1\0\5\fwarning\b\16information\b\nother\b﫠\thint\b\nerror\b\14auto_jump\1\2\0\0\20lsp_definitions\16action_keys\16toggle_fold\1\3\0\0\azA\aza\15open_folds\1\3\0\0\azR\azr\16close_folds\1\3\0\0\azM\azm\15jump_close\1\2\0\0\6o\ropen_tab\1\2\0\0\n<c-t>\16open_vsplit\1\2\0\0\n<c-v>\15open_split\1\2\0\0\n<c-x>\tjump\1\3\0\0\t<cr>\n<tab>\1\0\t\vcancel\n<esc>\16toggle_mode\6m\19toggle_preview\6P\rprevious\6k\tnext\6j\nhover\6K\frefresh\6r\fpreview\6p\nclose\6q\1\0\15\15auto_close\1\17auto_preview\2\tmode\26workspace_diagnostics\rposition\vbottom\17indent_lines\2\ngroup\2\fpadding\2\nicons\2\14auto_open\1\vheight\3\n\nwidth\0032\14auto_fold\1\16fold_closed\b\25use_diagnostic_signs\1\14fold_open\b\nsetup\ftrouble\frequire\0" },
+    config = { "\27LJ\2\n�\1\0\0\6\1\n\0\0206\0\0\0'\2\1\0B\0\2\2\v\0\0\0X\1\v�6\1\2\0009\1\3\0019\1\4\1'\3\5\0006\4\2\0009\4\6\0049\4\a\0049\4\b\0044\5\0\0B\1\4\1K\0\1\0009\1\t\0-\3\0\0B\1\2\1K\0\1\0\0�\nsetup\tWARN\vlevels\blog\28Trouble.nvim not found.\16nvim_notify\bapi\bvim\ftrouble\frequire\0" },
     loaded = true,
     path = "/Users/yangjerry/.local/share/lunarvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
@@ -328,6 +347,14 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/yangjerry/.local/share/lunarvim/site/pack/packer/start/vim-illuminate",
     url = "https://github.com/RRethy/vim-illuminate"
+  },
+  vimtex = {
+    config = { "\27LJ\2\n\v\0\0\1\0\0\0\1K\0\1\0\0" },
+    loaded = false,
+    needs_bufread = true,
+    only_cond = false,
+    path = "/Users/yangjerry/.local/share/lunarvim/site/pack/packer/opt/vimtex",
+    url = "https://github.com/lervag/vimtex"
   },
   ["which-key.nvim"] = {
     config = { "\27LJ\2\nA\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\24lvim.core.which-key\frequire\0" },
@@ -368,34 +395,6 @@ if not vim.g.packer_custom_loader_enabled then
   vim.g.packer_custom_loader_enabled = true
 end
 
--- Config for: mason.nvim
-time([[Config for mason.nvim]], true)
-try_loadstring("\27LJ\2\n=\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\20lvim.core.mason\frequire\0", "config", "mason.nvim")
-time([[Config for mason.nvim]], false)
--- Config for: indent-blankline.nvim
-time([[Config for indent-blankline.nvim]], true)
-try_loadstring("\27LJ\2\nC\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\26lvim.core.indentlines\frequire\0", "config", "indent-blankline.nvim")
-time([[Config for indent-blankline.nvim]], false)
--- Config for: nvim-tree.lua
-time([[Config for nvim-tree.lua]], true)
-try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\23lvim.core.nvimtree\frequire\0", "config", "nvim-tree.lua")
-time([[Config for nvim-tree.lua]], false)
--- Config for: symbols-outline.nvim
-time([[Config for symbols-outline.nvim]], true)
-try_loadstring("\27LJ\2\n�\f\0\0\6\0A\0I5\0\0\0005\1\2\0005\2\1\0=\2\3\1=\1\4\0004\1\0\0=\1\5\0004\1\0\0=\1\6\0005\1\b\0005\2\a\0=\2\t\0015\2\n\0=\2\v\0015\2\f\0=\2\r\0015\2\14\0=\2\15\0015\2\16\0=\2\17\0015\2\18\0=\2\19\0015\2\20\0=\2\21\0015\2\22\0=\2\23\0015\2\24\0=\2\25\0015\2\26\0=\2\27\0015\2\28\0=\2\29\0015\2\30\0=\2\31\0015\2 \0=\2!\0015\2\"\0=\2#\0015\2$\0=\2%\0015\2&\0=\2'\0015\2(\0=\2)\0015\2*\0=\2+\0015\2,\0=\2-\0015\2.\0=\2/\0015\0020\0=\0021\0015\0022\0=\0023\0015\0024\0=\0025\0015\0026\0=\0027\0015\0028\0=\0029\0015\2:\0=\2;\1=\1<\0006\1=\0006\3>\0'\4?\0B\1\3\3\15\0\1\0X\3\3�9\3@\2\18\5\0\0B\3\2\1K\0\1\0\nsetup\20symbols-outline\frequire\npcall\fsymbols\18TypeParameter\1\0\2\ticon\t𝙏\ahl\16TSParameter\rOperator\1\0\2\ticon\6+\ahl\15TSOperator\nEvent\1\0\2\ticon\t🗲\ahl\vTSType\vStruct\1\0\2\ticon\t𝓢\ahl\vTSType\15EnumMember\1\0\2\ticon\b\ahl\fTSField\tNull\1\0\2\ticon\tNULL\ahl\vTSType\bKey\1\0\2\ticon\t🔐\ahl\vTSType\vObject\1\0\2\ticon\b⦿\ahl\vTSType\nArray\1\0\2\ticon\b\ahl\15TSConstant\fBoolean\1\0\2\ticon\b⊨\ahl\14TSBoolean\vNumber\1\0\2\ticon\6#\ahl\rTSNumber\vString\1\0\2\ticon\t𝓐\ahl\rTSString\rConstant\1\0\2\ticon\b\ahl\15TSConstant\rVariable\1\0\2\ticon\b\ahl\15TSConstant\rFunction\1\0\2\ticon\aƒ\ahl\15TSFunction\14Interface\1\0\2\ticon\bﰮ\ahl\vTSType\tEnum\1\0\2\ticon\bℰ\ahl\vTSType\16Constructor\1\0\2\ticon\b\ahl\18TSConstructor\nField\1\0\2\ticon\b\ahl\fTSField\rProperty\1\0\2\ticon\b\ahl\rTSMethod\vMethod\1\0\2\ticon\aƒ\ahl\rTSMethod\nClass\1\0\2\ticon\t𝓒\ahl\vTSType\fPackage\1\0\2\ticon\b\ahl\16TSNamespace\14Namespace\1\0\2\ticon\b\ahl\16TSNamespace\vModule\1\0\2\ticon\b\ahl\16TSNamespace\tFile\1\0\0\1\0\2\ticon\b\ahl\nTSURI\21symbol_blacklist\18lsp_blacklist\fkeymaps\nclose\1\0\6\18goto_location\t<Cr>\19focus_location\6o\17hover_symbol\14<C-space>\19toggle_preview\6K\18rename_symbol\6r\17code_actions\6a\1\3\0\0\n<Esc>\6q\1\0\v\15auto_close\2\17auto_preview\2\19relative_width\2\rposition\nright\26show_relative_numbers\1\24show_symbol_details\2\25preview_bg_highlight\nPmenu\17show_numbers\1\16show_guides\2\27highlight_hovered_item\2\nwidth\3\20\0", "config", "symbols-outline.nvim")
-time([[Config for symbols-outline.nvim]], false)
--- Config for: lir.nvim
-time([[Config for lir.nvim]], true)
-try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\18lvim.core.lir\frequire\0", "config", "lir.nvim")
-time([[Config for lir.nvim]], false)
--- Config for: alpha-nvim
-time([[Config for alpha-nvim]], true)
-try_loadstring("\27LJ\2\n=\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\20lvim.core.alpha\frequire\0", "config", "alpha-nvim")
-time([[Config for alpha-nvim]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-try_loadstring("\27LJ\2\nA\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\24lvim.core.autopairs\frequire\0", "config", "nvim-autopairs")
-time([[Config for nvim-autopairs]], false)
 -- Config for: project.nvim
 time([[Config for project.nvim]], true)
 try_loadstring("\27LJ\2\n?\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\22lvim.core.project\frequire\0", "config", "project.nvim")
@@ -412,10 +411,6 @@ time([[Config for vim-illuminate]], false)
 time([[Config for nvim-cmp]], true)
 try_loadstring("\27LJ\2\n`\0\0\3\0\6\0\v6\0\0\0009\0\1\0009\0\2\0\15\0\0\0X\1\5�6\0\3\0'\2\4\0B\0\2\0029\0\5\0B\0\1\1K\0\1\0\nsetup\18lvim.core.cmp\frequire\bcmp\fbuiltin\tlvim\0", "config", "nvim-cmp")
 time([[Config for nvim-cmp]], false)
--- Config for: trouble.nvim
-time([[Config for trouble.nvim]], true)
-try_loadstring("\27LJ\2\n�\5\0\0\5\0\26\0\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0005\4\5\0=\4\6\0035\4\a\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\0035\4\19\0=\4\20\3=\3\21\0025\3\22\0=\3\23\0025\3\24\0=\3\25\2B\0\2\1K\0\1\0\nsigns\1\0\5\fwarning\b\16information\b\nother\b﫠\thint\b\nerror\b\14auto_jump\1\2\0\0\20lsp_definitions\16action_keys\16toggle_fold\1\3\0\0\azA\aza\15open_folds\1\3\0\0\azR\azr\16close_folds\1\3\0\0\azM\azm\15jump_close\1\2\0\0\6o\ropen_tab\1\2\0\0\n<c-t>\16open_vsplit\1\2\0\0\n<c-v>\15open_split\1\2\0\0\n<c-x>\tjump\1\3\0\0\t<cr>\n<tab>\1\0\t\vcancel\n<esc>\16toggle_mode\6m\19toggle_preview\6P\rprevious\6k\tnext\6j\nhover\6K\frefresh\6r\fpreview\6p\nclose\6q\1\0\15\15auto_close\1\17auto_preview\2\tmode\26workspace_diagnostics\rposition\vbottom\17indent_lines\2\ngroup\2\fpadding\2\nicons\2\14auto_open\1\vheight\3\n\nwidth\0032\14auto_fold\1\16fold_closed\b\25use_diagnostic_signs\1\14fold_open\b\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
-time([[Config for trouble.nvim]], false)
 -- Config for: lualine.nvim
 time([[Config for lualine.nvim]], true)
 try_loadstring("\27LJ\2\n?\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\22lvim.core.lualine\frequire\0", "config", "lualine.nvim")
@@ -424,40 +419,90 @@ time([[Config for lualine.nvim]], false)
 time([[Config for nvim-dap-ui]], true)
 try_loadstring("\27LJ\2\n>\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\rsetup_ui\18lvim.core.dap\frequire\0", "config", "nvim-dap-ui")
 time([[Config for nvim-dap-ui]], false)
--- Config for: nvim-dap
-time([[Config for nvim-dap]], true)
-try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\18lvim.core.dap\frequire\0", "config", "nvim-dap")
-time([[Config for nvim-dap]], false)
+-- Config for: mason.nvim
+time([[Config for mason.nvim]], true)
+try_loadstring("\27LJ\2\n=\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\20lvim.core.mason\frequire\0", "config", "mason.nvim")
+time([[Config for mason.nvim]], false)
+-- Config for: symbols-outline.nvim
+time([[Config for symbols-outline.nvim]], true)
+try_loadstring("\27LJ\2\n�\2\0\0\b\1\15\0\0306\0\0\0006\2\1\0'\3\2\0B\0\3\3\15\0\0\0X\2\4�9\2\3\1-\4\0\0B\2\2\1X\2\v�6\2\4\0009\2\5\0029\2\6\2'\4\a\0006\5\4\0009\5\b\0059\5\t\0059\5\n\0054\6\0\0B\2\4\1K\0\1\0006\2\4\0009\2\5\0029\2\v\2'\4\f\0'\5\r\0'\6\14\0004\a\0\0B\2\5\1K\0\1\0\0�\24:SymbolsOutline<cr>\15<leader>lo\6n\20nvim_set_keymap\tWARN\vlevels\blog\31symbols-outline not found.\16nvim_notify\bapi\bvim\nsetup\20symbols-outline\frequire\npcall\0", "config", "symbols-outline.nvim")
+time([[Config for symbols-outline.nvim]], false)
+-- Config for: nvim-tree.lua
+time([[Config for nvim-tree.lua]], true)
+try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\23lvim.core.nvimtree\frequire\0", "config", "nvim-tree.lua")
+time([[Config for nvim-tree.lua]], false)
 -- Config for: nvim-navic
 time([[Config for nvim-navic]], true)
 try_loadstring("\27LJ\2\nC\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\26lvim.core.breadcrumbs\frequire\0", "config", "nvim-navic")
 time([[Config for nvim-navic]], false)
+-- Config for: indent-blankline.nvim
+time([[Config for indent-blankline.nvim]], true)
+try_loadstring("\27LJ\2\nC\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\26lvim.core.indentlines\frequire\0", "config", "indent-blankline.nvim")
+time([[Config for indent-blankline.nvim]], false)
+-- Config for: trouble.nvim
+time([[Config for trouble.nvim]], true)
+try_loadstring("\27LJ\2\n�\1\0\0\6\1\n\0\0206\0\0\0'\2\1\0B\0\2\2\v\0\0\0X\1\v�6\1\2\0009\1\3\0019\1\4\1'\3\5\0006\4\2\0009\4\6\0049\4\a\0049\4\b\0044\5\0\0B\1\4\1K\0\1\0009\1\t\0-\3\0\0B\1\2\1K\0\1\0\0�\nsetup\tWARN\vlevels\blog\28Trouble.nvim not found.\16nvim_notify\bapi\bvim\ftrouble\frequire\0", "config", "trouble.nvim")
+time([[Config for trouble.nvim]], false)
+-- Config for: alpha-nvim
+time([[Config for alpha-nvim]], true)
+try_loadstring("\27LJ\2\n=\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\20lvim.core.alpha\frequire\0", "config", "alpha-nvim")
+time([[Config for alpha-nvim]], false)
 -- Config for: nvim-treesitter
 time([[Config for nvim-treesitter]], true)
 try_loadstring("\27LJ\2\nB\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\25lvim.core.treesitter\frequire\0", "config", "nvim-treesitter")
 time([[Config for nvim-treesitter]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+try_loadstring("\27LJ\2\nA\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\24lvim.core.autopairs\frequire\0", "config", "nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
+-- Config for: todo-comments.nvim
+time([[Config for todo-comments.nvim]], true)
+try_loadstring("\27LJ\2\n�\t\0\0\a\0007\0F6\0\0\0'\2\1\0B\0\2\2\v\0\0\0X\1\v�6\1\2\0009\1\3\0019\1\4\1'\3\5\0006\4\2\0009\4\6\0049\4\a\0049\4\b\0044\5\0\0B\1\4\1K\0\1\0009\1\t\0005\3\n\0005\4\14\0005\5\v\0005\6\f\0=\6\r\5=\5\15\0045\5\16\0=\5\17\0045\5\18\0=\5\19\0045\5\20\0005\6\21\0=\6\r\5=\5\b\0045\5\22\0005\6\23\0=\6\r\5=\5\24\0045\5\25\0005\6\26\0=\6\r\5=\5\27\0045\5\28\0005\6\29\0=\6\r\5=\5\30\4=\4\31\0035\4 \0=\4!\0035\4\"\0004\5\0\0=\5#\4=\4$\0035\4&\0005\5%\0=\5'\0045\5(\0=\5)\0045\5*\0=\5+\0045\5,\0=\5-\0045\5.\0=\5/\0045\0050\0=\0051\4=\0042\0035\0043\0005\0054\0=\0055\4=\0046\3B\1\2\1K\0\1\0\vsearch\targs\1\6\0\0\18--color=never\17--no-heading\20--with-filename\18--line-number\r--column\1\0\2\fpattern\18\\b(KEYWORDS):\fcommand\arg\vcolors\ttest\1\3\0\0\15Identifier\f#FF00FF\fdefault\1\3\0\0\15Identifier\f#7C3AED\thint\1\3\0\0\19DiagnosticHint\f#10B981\tinfo\1\3\0\0\19DiagnosticInfo\f#2563EB\fwarning\1\4\0\0\22DiagnosticWarning\15WarningMsg\f#FBBF24\nerror\1\0\0\1\4\0\0\20DiagnosticError\rErrorMsg\f#DC2626\14highlight\fexclude\1\0\6\vbefore\5\fkeyword\twide\17max_line_len\3�\3\nafter\afg\fpattern\22.*<(KEYWORDS)\\s*:\18comments_only\2\14gui_style\1\0\2\abg\tBOLD\afg\tNONE\rkeywords\tTEST\1\4\0\0\fTESTING\vPASSED\vFAILED\1\0\2\ncolor\ttest\ticon\t⏲ \tNOTE\1\2\0\0\tINFO\1\0\2\ncolor\thint\ticon\t \tPERF\1\4\0\0\nOPTIM\16PERFORMANCE\rOPTIMIZE\1\0\1\ticon\t \1\3\0\0\fWARNING\bXXX\1\0\2\ncolor\fwarning\ticon\t \tHACK\1\0\2\ncolor\fwarning\ticon\t \tTODO\1\0\2\ncolor\tinfo\ticon\t \bFIX\1\0\0\balt\1\5\0\0\nFIXME\bBUG\nFIXIT\nISSUE\1\0\2\ncolor\nerror\ticon\t \1\0\3\nsigns\2\19merge_keywords\2\18sign_priority\3\b\nsetup\tWARN\vlevels\blog\29todo-comments not found.\16nvim_notify\bapi\bvim\18todo-comments\frequire\0", "config", "todo-comments.nvim")
+time([[Config for todo-comments.nvim]], false)
+-- Config for: nvim-dap
+time([[Config for nvim-dap]], true)
+try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\18lvim.core.dap\frequire\0", "config", "nvim-dap")
+time([[Config for nvim-dap]], false)
 -- Config for: telescope.nvim
 time([[Config for telescope.nvim]], true)
 try_loadstring("\27LJ\2\nA\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\24lvim.core.telescope\frequire\0", "config", "telescope.nvim")
 time([[Config for telescope.nvim]], false)
+-- Config for: lir.nvim
+time([[Config for lir.nvim]], true)
+try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\18lvim.core.lir\frequire\0", "config", "lir.nvim")
+time([[Config for lir.nvim]], false)
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
   -- Filetype lazy-loads
 time([[Defining lazy-load filetype autocommands]], true)
-vim.cmd [[au FileType h ++once lua require("packer.load")({'clangd_extensions.nvim'}, { ft = "h" }, _G.packer_plugins)]]
-vim.cmd [[au FileType cxx ++once lua require("packer.load")({'clangd_extensions.nvim'}, { ft = "cxx" }, _G.packer_plugins)]]
 vim.cmd [[au FileType cc ++once lua require("packer.load")({'clangd_extensions.nvim'}, { ft = "cc" }, _G.packer_plugins)]]
-vim.cmd [[au FileType cu ++once lua require("packer.load")({'clangd_extensions.nvim'}, { ft = "cu" }, _G.packer_plugins)]]
-vim.cmd [[au FileType hpp ++once lua require("packer.load")({'clangd_extensions.nvim'}, { ft = "hpp" }, _G.packer_plugins)]]
-vim.cmd [[au FileType cpp ++once lua require("packer.load")({'clangd_extensions.nvim'}, { ft = "cpp" }, _G.packer_plugins)]]
 vim.cmd [[au FileType c ++once lua require("packer.load")({'clangd_extensions.nvim'}, { ft = "c" }, _G.packer_plugins)]]
+vim.cmd [[au FileType cxx ++once lua require("packer.load")({'clangd_extensions.nvim'}, { ft = "cxx" }, _G.packer_plugins)]]
+vim.cmd [[au FileType markdown ++once lua require("packer.load")({'markdown-preview.nvim'}, { ft = "markdown" }, _G.packer_plugins)]]
+vim.cmd [[au FileType cpp ++once lua require("packer.load")({'clangd_extensions.nvim'}, { ft = "cpp" }, _G.packer_plugins)]]
+vim.cmd [[au FileType h ++once lua require("packer.load")({'clangd_extensions.nvim'}, { ft = "h" }, _G.packer_plugins)]]
+vim.cmd [[au FileType cu ++once lua require("packer.load")({'clangd_extensions.nvim'}, { ft = "cu" }, _G.packer_plugins)]]
+vim.cmd [[au FileType md ++once lua require("packer.load")({'markdown-preview.nvim'}, { ft = "md" }, _G.packer_plugins)]]
+vim.cmd [[au FileType tex ++once lua require("packer.load")({'vimtex'}, { ft = "tex" }, _G.packer_plugins)]]
+vim.cmd [[au FileType hpp ++once lua require("packer.load")({'clangd_extensions.nvim'}, { ft = "hpp" }, _G.packer_plugins)]]
 time([[Defining lazy-load filetype autocommands]], false)
   -- Event lazy-loads
 time([[Defining lazy-load event autocommands]], true)
-vim.cmd [[au BufRead * ++once lua require("packer.load")({'lsp_signature.nvim', 'gitsigns.nvim', 'Comment.nvim'}, { event = "BufRead *" }, _G.packer_plugins)]]
+vim.cmd [[au BufWinEnter * ++once lua require("packer.load")({'which-key.nvim', 'toggleterm.nvim', 'bufferline.nvim'}, { event = "BufWinEnter *" }, _G.packer_plugins)]]
+vim.cmd [[au BufRead * ++once lua require("packer.load")({'Comment.nvim', 'gitsigns.nvim', 'lsp_signature.nvim'}, { event = "BufRead *" }, _G.packer_plugins)]]
 vim.cmd [[au BufReadPost * ++once lua require("packer.load")({'nvim-ts-context-commentstring'}, { event = "BufReadPost *" }, _G.packer_plugins)]]
-vim.cmd [[au BufWinEnter * ++once lua require("packer.load")({'toggleterm.nvim', 'which-key.nvim', 'bufferline.nvim'}, { event = "BufWinEnter *" }, _G.packer_plugins)]]
 time([[Defining lazy-load event autocommands]], false)
+vim.cmd("augroup END")
+vim.cmd [[augroup filetypedetect]]
+time([[Sourcing ftdetect script at: /Users/yangjerry/.local/share/lunarvim/site/pack/packer/opt/vimtex/ftdetect/cls.vim]], true)
+vim.cmd [[source /Users/yangjerry/.local/share/lunarvim/site/pack/packer/opt/vimtex/ftdetect/cls.vim]]
+time([[Sourcing ftdetect script at: /Users/yangjerry/.local/share/lunarvim/site/pack/packer/opt/vimtex/ftdetect/cls.vim]], false)
+time([[Sourcing ftdetect script at: /Users/yangjerry/.local/share/lunarvim/site/pack/packer/opt/vimtex/ftdetect/tex.vim]], true)
+vim.cmd [[source /Users/yangjerry/.local/share/lunarvim/site/pack/packer/opt/vimtex/ftdetect/tex.vim]]
+time([[Sourcing ftdetect script at: /Users/yangjerry/.local/share/lunarvim/site/pack/packer/opt/vimtex/ftdetect/tex.vim]], false)
+time([[Sourcing ftdetect script at: /Users/yangjerry/.local/share/lunarvim/site/pack/packer/opt/vimtex/ftdetect/tikz.vim]], true)
+vim.cmd [[source /Users/yangjerry/.local/share/lunarvim/site/pack/packer/opt/vimtex/ftdetect/tikz.vim]]
+time([[Sourcing ftdetect script at: /Users/yangjerry/.local/share/lunarvim/site/pack/packer/opt/vimtex/ftdetect/tikz.vim]], false)
 vim.cmd("augroup END")
 
 _G._packer.inside_compile = false

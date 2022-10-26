@@ -25,3 +25,7 @@ lvim.builtin.treesitter.ensure_installed = {
 
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.highlight.enable = true
+
+lvim.builtin.terminal.start_in_insert = true
+
+

@@ -1,5 +1,10 @@
 local M = {
   setup = function()
+    local p = require('clangd_extensions')
+    if p == nil then
+      vim.api.nvim_notify('clangd_extensions.nvim not found.', vim.log.levels.WARN, {})
+      return
+    end
     local opts = { noremap = true, silent = true }
     -- Use an on_attach function to only map the following keys
     -- after the language server attaches to the current buffer
@@ -15,9 +20,8 @@ local M = {
       vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
     end
 
-    require("clangd_extensions").setup {
+    p.setup {
       server = {
-        -- TODO: On attach.
         on_attach = on_attach,
         -- options to pass to nvim-lspconfig
         -- i.e. the arguments to require("lspconfig").clangd.setup({})
@@ -77,7 +81,6 @@ local M = {
             statement = "",
             ["template argument"] = "",
           },
-          --
           kind_icons = {
             Compound = "",
             Recovery = "",
