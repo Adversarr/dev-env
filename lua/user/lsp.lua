@@ -4,11 +4,11 @@
 lvim.lsp.installer.setup.ensure_installed = {
   "sumneko_lua",
   "jsonls",
-  "clangd",
   "texlab",
   "codelldb",
   "cmake-language-server"
 }
+
 -- -- change UI setting of `LspInstallInfo`
 -- -- see <https://github.com/williamboman/nvim-lsp-installer#default-configuration>
 -- lvim.lsp.installer.setup.ui.check_outdated_servers_on_open = false
