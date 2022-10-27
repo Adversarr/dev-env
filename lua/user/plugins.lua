@@ -15,7 +15,7 @@ lvim.plugins = {
     -- lsp_signature
     "ray-x/lsp_signature.nvim",
     event = "BufRead",
-    config = function() require "lsp_signature".on_attach() end,
+    config = require("user.plug_configs.lsp_signature").setup
   },
   {
     -- symbols-outline
@@ -34,10 +34,8 @@ lvim.plugins = {
   {
     "iamcco/markdown-preview.nvim",
     run = "cd app && npm install",
-    ft = {"markdown", "md"},
-    config = function()
-      vim.g.mkdp_auto_start = 1
-    end,
+    ft = {"markdown"},
+    config = require('user.plug_configs.markdown_preview').setup
   },
   {
     'lervag/vimtex',

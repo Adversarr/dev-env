@@ -34,7 +34,6 @@ local M = {
           "--ranking-model=heuristics",
           "--log=error",
           "--background-index",
-          "--function-arg-placeholders=0",
           "--clang-tidy"
         }
       },
