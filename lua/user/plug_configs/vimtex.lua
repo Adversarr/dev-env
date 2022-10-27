@@ -1,7 +1,6 @@
 vim.g.tex_conceal = 'abdmgs'
 vim.g.tex_flavor = 'latex'
-vim.api.nvim_set_option('conceallevel', 2)
-
+vim.opt.conceallevel = 2
 -- if OS is mac, set the viewer to skim.
 if vim.fn.has('mac') then
   vim.g.vimtex_view_method = 'skim'
@@ -18,7 +17,7 @@ vim.g.vimtex_toc_config = {
   show_numbers = 1,
 }
 
-vim.g.vimtex_compiler_latexmk_engines =  {
+vim.g.vimtex_compiler_latexmk_engines = {
   _ = '-xelatex'
 }
 
@@ -41,6 +40,14 @@ vim.g.vimtex_compiler_latexmk = {
 
 local M = {
   setup = function()
+    -- if OS is mac, set the viewer to skim.
+    if vim.fn.has('mac') then
+      vim.g.vimtex_view_method = 'skim'
+      vim.g.vimtex_quickfix_mode = 0
+      vim.g.vimtex_view_skim_sync = 1
+      vim.g.vimtex_view_skim_active = 1
+    end
+
   end
 }
 
