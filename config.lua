@@ -12,6 +12,7 @@ an executable
 lvim.log.level = "warn"
 lvim.format_on_save = false
 lvim.colorscheme = "gruvbox"
+vim.api.nvim_set_option('relativenumber', true)
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
@@ -23,7 +24,7 @@ require("user.keymap")
 require("user.builtin_config")
 
 -- lvim_lsp
-require("user.lvim_lsp")
+require("user.lsp")
 
 -- formater
 require("user.formater")
@@ -31,5 +32,10 @@ require("user.formater")
 -- Additional Plugins
 require("user.plugins")
 
+
+-- Setup Debuggers
+require('user.dbg')
+
 -- Auto Commands
 require("user.auto_commands")
+
