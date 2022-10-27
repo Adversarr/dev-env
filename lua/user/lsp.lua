@@ -23,6 +23,7 @@ lvim.lsp.installer.setup.automatic_installation = false
 
 -- ---configure a server manually. !!Requires `:LvimCacheReset` to take effect!!
 -- ---see the full default list `:lua print(vim.inspect(lvim.lsp.automatic_configuration.skipped_servers))`
+-- Use clangd_extension to enable clangd.
 vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "clangd" })
 
 -- local opts = {} -- check the lspconfig documentation for a list of all possible options
@@ -43,3 +44,4 @@ vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "clangd" })
 --   --Enable completion triggered by <c-x><c-o>
 --   buf_set_option("omnifunc", "v:lua.vim.lsp.omnifunc")
 -- end
+
