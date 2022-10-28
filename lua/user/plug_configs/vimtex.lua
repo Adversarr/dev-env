@@ -47,8 +47,17 @@ local M = {
       vim.g.vimtex_view_skim_sync = 1
       vim.g.vimtex_view_skim_active = 1
     end
+    vim.api.nvim_create_augroup("vimtex_mac", {})
+    vim.api.nvim_create_autocmd("User", {
+      group = 'vimtex_mac',
+      pattern = 'VimtexEventCompileSuccess',
+      callback = function()
+        require('notify').notify('Compilation Success!', vim.log.levels.INFO)
+      end
+    })
 
-  end
+    -- TODO: Add other autocmd.
+ end
 }
 
 return M
