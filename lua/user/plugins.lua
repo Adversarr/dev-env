@@ -33,14 +33,19 @@ lvim.plugins = {
   },
   {
     "iamcco/markdown-preview.nvim",
-    run = "cd app && npm install",
     ft = {"markdown"},
     config = require('user.plug_configs.markdown_preview').setup
   },
   {
     'lervag/vimtex',
     ft = {'tex'},
-    config = require("user.plug_configs.vimtex").setup
+    config = require("user.plug_configs.vimtex").setup,
+    require = 'rcarriga/nvim-notify'
+  },
+  {
+    'rcarriga/nvim-notify',
+    tag='*',
+    config = require('user.plug_configs.notify').setup
   }
 
 
