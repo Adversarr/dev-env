@@ -29,24 +29,28 @@ lvim.plugins = {
   },
   {
     -- colorscheme gruvbox
-    "ellisonleao/gruvbox.nvim"
+    "ellisonleao/gruvbox.nvim",
+    config = require('user.plug_configs.gruvbox').setup
   },
   {
     "iamcco/markdown-preview.nvim",
-    ft = {"markdown"},
+    ft = { "markdown" },
     config = require('user.plug_configs.markdown_preview').setup
   },
   {
     'lervag/vimtex',
-    ft = {'tex'},
+    ft = { 'tex' },
     config = require("user.plug_configs.vimtex").setup,
     require = 'rcarriga/nvim-notify'
   },
   {
     'rcarriga/nvim-notify',
-    tag='*',
+    tag = '*',
     config = require('user.plug_configs.notify').setup
-  }
-
-
+  },
+  {
+    'preservim/vim-markdown',
+    require = 'godlygeek/tabular',
+    config = require('user.plug_configs.vim-markdown').setup
+  },
 }
