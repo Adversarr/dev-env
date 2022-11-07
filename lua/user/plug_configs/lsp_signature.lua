@@ -5,7 +5,7 @@ local M = {
       return
     end
     cfg = {
-      debug = false, -- set to true to enable debug logging
+      debug = true, -- set to true to enable debug logging
       log_path = vim.fn.stdpath("cache") .. "/lsp_signature.log", -- log dir when debug is on
       -- default is  ~/.cache/nvim/lsp_signature.log
       verbose = false, -- show debug line number
@@ -58,7 +58,7 @@ local M = {
       move_cursor_key = nil, -- imap, use nvim_set_current_win to move cursor between current win and floating
     }
 
-    p.setup(cfg)
+    p.on_attach(cfg)
   end
 }
 

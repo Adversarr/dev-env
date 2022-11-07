@@ -9,6 +9,10 @@ local M = {
     -- Use an on_attach function to only map the following keys
     -- after the language server attaches to the current buffer
     local on_attach = function(client, bufnr)
+      -- NOTE: Setup Signature
+      local ls = require('user.plug_configs.lsp_signature')
+      ls.setup()
+      
       -- Enable completion triggered by <c-x><c-o>
       vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
 
@@ -17,9 +21,10 @@ local M = {
       vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
       vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
       vim.api.nvim_buf_set_keymap(bufnr, 'n', '<leader>lK', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
+      vim.api.nvim_buf_set_keymap(bufnr, 'n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
       vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
     end
-
+    -- NOTE: Setup Clangd
     p.setup {
       server = {
         on_attach = on_attach,
@@ -102,6 +107,7 @@ local M = {
         },
       },
     }
+
   end
 }
 

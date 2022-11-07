@@ -56,3 +56,6 @@ lvim.builtin.which_key.mappings['t'] = {
   d = { "<cmd> Trouble workspace_diagnostics<cr>", "Trouble Workspace Diagnostics" },
   F = { "<cmd> Telescope live_grep<cr>", "Find string in ws" },
 }
+
+
+

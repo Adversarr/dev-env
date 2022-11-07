@@ -4,7 +4,7 @@ lvim.plugins = {
     "p00f/clangd_extensions.nvim",
     config = require('user.plug_configs.clangd').setup,
     -- defered loaded
-    ft = { 'c', 'cpp', 'hpp', 'h', 'cu', 'cc', 'cxx' }
+    ft = { 'c', 'cpp', 'hpp', 'h', 'cu', 'cc', 'cxx' },
   },
   {
     -- trouble.nvim
@@ -14,8 +14,7 @@ lvim.plugins = {
   {
     -- lsp_signature
     "ray-x/lsp_signature.nvim",
-    event = "BufRead",
-    config = require("user.plug_configs.lsp_signature").setup
+    opt = true,
   },
   {
     -- symbols-outline

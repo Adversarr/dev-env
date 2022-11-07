@@ -5,8 +5,6 @@ lvim.lsp.installer.setup.ensure_installed = {
   "sumneko_lua",
   "jsonls",
   "texlab",
-  "codelldb",
-  "cmake-language-server"
 }
 
 -- -- change UI setting of `LspInstallInfo`
