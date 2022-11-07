@@ -5,6 +5,7 @@ lvim.lsp.installer.setup.ensure_installed = {
   "sumneko_lua",
   "jsonls",
   "texlab",
+  'clangd'
 }
 
 -- -- change UI setting of `LspInstallInfo`
@@ -21,8 +22,40 @@ lvim.lsp.installer.setup.automatic_installation = false
 
 -- ---configure a server manually. !!Requires `:LvimCacheReset` to take effect!!
 -- ---see the full default list `:lua print(vim.inspect(lvim.lsp.automatic_configuration.skipped_servers))`
--- Use clangd_extension to enable clangd.
-vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "clangd" })
+
+
+-- NOTE: Clangd Setup.
+local opts = { noremap = true, silent = true }
+
+local on_attach = function(client, bufnr)
+  -- Enable completion triggered by <c-x><c-o>
+  vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
+
+  -- Mappings.
+  -- See `:help vim.lsp.*` for documentation on any of the below functions
+  vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
+  vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
+  vim.api.nvim_buf_set_keymap(bufnr, 'n', '<leader>lK', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
+  vim.api.nvim_buf_set_keymap(bufnr, 'n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
+  vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
+end
+
+vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "clangd" }, 1, #(lvim.lsp.automatic_configuration.skipped_servers))
+require('lvim.lsp.manager').setup('clangd', {
+  on_attach = on_attach,
+  cmd = {
+    'clangd',
+    "-j=8",
+    "--header-insertion=never",
+    "--pch-storage=memory",
+    "--completion-style=detailed",
+    "--ranking-model=heuristics",
+    "--log=error",
+    "--background-index",
+    "--clang-tidy"
+  },
+  filetypes = { "c", "cpp", "objc", "objcpp" }
+})
 
 -- local opts = {} -- check the lspconfig documentation for a list of all possible options
 -- require("lvim.lsp.manager").setup("pyright", opts)
@@ -42,4 +75,3 @@ vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "clangd" })
 --   --Enable completion triggered by <c-x><c-o>
 --   buf_set_option("omnifunc", "v:lua.vim.lsp.omnifunc")
 -- end
-
