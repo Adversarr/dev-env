@@ -1,10 +1,10 @@
 local M = {
   setup = function()
-    p = require('lsp_signature')
+    local p = require('lsp_signature')
     if p == nil then
       return
     end
-    cfg = {
+    local cfg = {
       debug = true, -- set to true to enable debug logging
       log_path = vim.fn.stdpath("cache") .. "/lsp_signature.log", -- log dir when debug is on
       -- default is  ~/.cache/nvim/lsp_signature.log

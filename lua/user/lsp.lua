@@ -27,8 +27,12 @@ lvim.lsp.installer.setup.automatic_installation = false
 -- NOTE: Clangd Setup.
 local opts = { noremap = true, silent = true }
 
+local ls = require('user.plug_configs.lsp_signature')
+
 local on_attach = function(client, bufnr)
   -- Enable completion triggered by <c-x><c-o>
+  ls.setup()
+
   vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
 
   -- Mappings.
@@ -40,7 +44,8 @@ local on_attach = function(client, bufnr)
   vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
 end
 
-vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "clangd" }, 1, #(lvim.lsp.automatic_configuration.skipped_servers))
+vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "clangd" }, 1, 1)
+
 require('lvim.lsp.manager').setup('clangd', {
   on_attach = on_attach,
   cmd = {

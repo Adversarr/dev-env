@@ -15,9 +15,6 @@ local M = {
     -- after the language server attaches to the current buffer
     local on_attach = function(client, bufnr)
       -- NOTE: Setup Signature
-      local ls = require('user.plug_configs.lsp_signature')
-      ls.setup()
-
       -- Enable completion triggered by <c-x><c-o>
       vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
 

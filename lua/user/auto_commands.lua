@@ -1,5 +1,3 @@
-
-
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
 --   pattern = { "*.json", "*.jsonc" },
@@ -7,9 +5,9 @@
 --   command = "setlocal wrap",
 -- })
 -- vim.api.nvim_create_autocmd("FileType", {
---   pattern = "zsh",
+--   pattern = { "cpp", "c", 'objc', 'objcpp' },
 --   callback = function()
---     -- let treesitter use bash highlight for zsh files as well
---     require("nvim-treesitter.highlight").attach(0, "bash")
+--     local ls = require('user.plug_configs.lsp_signature')
+--     ls.setup()
 --   end,
 -- })

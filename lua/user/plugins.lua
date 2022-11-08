@@ -14,7 +14,7 @@ lvim.plugins = {
   {
     -- lsp_signature
     "ray-x/lsp_signature.nvim",
-    event = "BufRead",
+    -- opt = true,
     config = require("user.plug_configs.lsp_signature").setup
   },
   {
