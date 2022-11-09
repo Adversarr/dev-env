@@ -7,6 +7,10 @@ lvim.plugins = {
   --   ft = { 'c', 'cpp', 'hpp', 'h', 'cu', 'cc', 'cxx' }
   -- },
   {
+    'tikhomirov/vim-glsl',
+    config = require('user.plug_configs.glsl').setup
+  },
+  {
     -- trouble.nvim
     "folke/trouble.nvim",
     config = require('user.plug_configs.trouble').setup,
