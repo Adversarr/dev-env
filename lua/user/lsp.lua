@@ -32,6 +32,7 @@ local ls = require('user.plug_configs.lsp_signature')
 local on_attach = function(client, bufnr)
   -- Enable completion triggered by <c-x><c-o>
   ls.setup()
+  vim.api.nvim_buf_set_var(bufnr, 'load_doxygen_syntax', 1)
 
   vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
 

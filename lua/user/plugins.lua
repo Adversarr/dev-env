@@ -1,11 +1,4 @@
 lvim.plugins = {
-  -- {
-  --   -- clangd_extensions.nvim:
-  --   "p00f/clangd_extensions.nvim",
-  --   config = require('user.plug_configs.clangd').setup,
-  --   -- defered loaded
-  --   ft = { 'c', 'cpp', 'hpp', 'h', 'cu', 'cc', 'cxx' }
-  -- },
   {
     'tikhomirov/vim-glsl',
     config = require('user.plug_configs.glsl').setup
@@ -50,11 +43,18 @@ lvim.plugins = {
   {
     'rcarriga/nvim-notify',
     tag = '*',
-    config = require('user.plug_configs.notify').setup
+    config = require('user.plug_configs.notif').setup
   },
   {
     'preservim/vim-markdown',
     require = 'godlygeek/tabular',
     config = require('user.plug_configs.vim-markdown').setup
+  },
+  {
+    'rmagatti/goto-preview',
+    config = require('user.plug_configs.goto-preview').setup
+  },
+  {
+    'joshdick/onedark.vim'
   },
 }

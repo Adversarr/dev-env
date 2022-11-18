@@ -6,6 +6,7 @@ lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
 lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
 
+vim.api.nvim_set_var('load_doxygen_syntax', 1)
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
   "bash",
@@ -31,4 +32,5 @@ lvim.builtin.terminal.shade_terminals = true
 
 
 -- lvim.builtin.terminal.execs[#lvim.builtin.terminal.execs+1]
+
 
