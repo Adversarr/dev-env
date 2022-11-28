@@ -11,7 +11,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = false
-lvim.colorscheme = "gruvbox"
+lvim.colorscheme = "sonokai"
 vim.api.nvim_set_option('relativenumber', true)
 
 -- to disable icons and use a minimalist setup, uncomment the following

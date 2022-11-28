@@ -30,6 +30,14 @@ lvim.builtin.treesitter.highlight.enable = true
 lvim.builtin.terminal.start_in_insert = true
 lvim.builtin.terminal.shade_terminals = true
 
+-- lvim.builtin.lualine.style = " /"
+-- lvim.builtin.lualine.sections.lualine_c = { "diff" }
+-- lvim.builtin.lualine.sections.lualine_a = { "diff" }
+lvim.builtin.lualine.options.component_separators = { left = '', right = ''}
+lvim.builtin.lualine.options.section_separators = { left = '', right = ''}
+
+
+
 
 -- lvim.builtin.terminal.execs[#lvim.builtin.terminal.execs+1]
 
