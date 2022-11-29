@@ -25,9 +25,7 @@ lvim.plugins = {
     config = require('user.plug_configs.todo_comment').setup,
   },
   {
-    -- colorscheme gruvbox
-    "ellisonleao/gruvbox.nvim",
-    config = require('user.plug_configs.gruvbox').setup
+    "sainnhe/gruvbox-material",
   },
   {
     "iamcco/markdown-preview.nvim",
