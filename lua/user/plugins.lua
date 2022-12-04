@@ -54,8 +54,5 @@ lvim.plugins = {
   },
   {
     'joshdick/onedark.vim'
-  },
-  {
-    'sainnhe/sonokai'
   }
 }

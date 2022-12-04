@@ -29,14 +29,14 @@ lvim.builtin.treesitter.highlight.enable = true
 
 lvim.builtin.terminal.start_in_insert = true
 lvim.builtin.terminal.shade_terminals = true
+if COLOR_SCHEME == 'gruvbox-material' then
+  lvim.builtin.lualine.options.theme = 'gruvbox-material'
+end
 
-lvim.builtin.lualine.options.theme = 'gruvbox-material'
-lvim.builtin.lualine.options.component_separators = { left = '', right = ''}
-lvim.builtin.lualine.options.section_separators = { left = '', right = ''}
+lvim.builtin.lualine.options.component_separators = { left = '', right = '' }
+lvim.builtin.lualine.options.section_separators = { left = '', right = '' }
 
 
 
 
 -- lvim.builtin.terminal.execs[#lvim.builtin.terminal.execs+1]
-
-

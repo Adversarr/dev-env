@@ -9,12 +9,17 @@ an executable
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 
 -- general
+COLOR_SCHEME = 'tokyonight-night'
+if COLOR_SCHEME == 'sonokai' then
+  vim.api.nvim_set_var('sonokai_style', 'espresso')
+  -- vim.api.nvim_set_var('sonokai_better_performance', 1)
+end
 lvim.log.level = "warn"
 lvim.format_on_save = false
-lvim.colorscheme = "gruvbox-material"
-vim.opt.wrap = true
+lvim.colorscheme = COLOR_SCHEME
+-- lvim.transparent_window = true
+-- vim.opt.wrap = true
 vim.opt.showtabline=2
--- lvim.colorscheme = "gruvbox"
 vim.api.nvim_set_var('gruvbox_material_background', "hard")
 vim.api.nvim_set_option('relativenumber', true)
 
